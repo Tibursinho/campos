@@ -3,19 +3,14 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
-}
-.lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-  }
-  
-.container__botao:checked ~ .lista-menu {
-    display: block;
-  }
+    --laranja: #eb9b00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
 
-  .lista-menu__titulo,
-.lista-menu__item {
-  padding: 1em;
-  background-color: var(--branco);
+}
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
