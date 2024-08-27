@@ -4,3 +4,12 @@
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
 }
+.container__botao:checked ~ .lista-menu {
+    display: block;
+  }
+  
+  .lista-menu__titulo,
+.lista-menu__item {
+  padding: 1em;
+  background-color: var(--branco);
+}
